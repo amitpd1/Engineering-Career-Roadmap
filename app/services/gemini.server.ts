@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 
-const MODEL_NAME = "gemini-2.0-flash"; // Or another suitable model
+const MODEL_NAME = "gemini-1.5-flash"; // Or another suitable model
 
 function getApiKey(): string {
   const apiKey = process.env.GEMINI_API_KEY;
